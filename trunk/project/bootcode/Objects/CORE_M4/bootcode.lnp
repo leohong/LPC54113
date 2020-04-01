@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\core_m4\sysinit.o"
+".\objects\core_m4\keil_startup_lpc18xx43xx.o"
+".\objects\core_m4\appiapproc.o"
+".\objects\core_m4\main.o"
+".\objects\core_m4\board.o"
+".\objects\core_m4\board_clock.o"
+".\objects\core_m4\board_gpio.o"
+".\objects\core_m4\board_iap.o"
+".\objects\core_m4\board_spi.o"
+".\objects\core_m4\board_uart.o"
+".\objects\core_m4\utilclicmd.o"
+".\objects\core_m4\utilcounter.o"
+".\objects\core_m4\utilhost.o"
+".\objects\core_m4\utillog.o"
+".\objects\core_m4\utiltask.o"
+".\objects\core_m4\freertoscommonhooks.o"
+"..\..\src\bootcode\thirdparty\freertos\lib_freertos.lib"
+"..\..\src\bootcode\drv\board\chip\lib_lpc_chip_43xx_m4.lib"
+--strict --scatter ".\Objects\CORE_M4\bootcode.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\bootcode.map" -o .\Objects\CORE_M4\bootcode.axf

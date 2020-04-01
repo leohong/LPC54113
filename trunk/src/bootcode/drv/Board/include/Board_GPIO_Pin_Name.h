@@ -1,0 +1,194 @@
+#ifndef BOARD_GPIO_NAME_H
+#define BOARD_GPIO_NAME_H
+// ==============================================================================
+// FILE NAME: BOARD_GPIO_NAME.H
+// DESCRIPTION:
+//
+//
+// modification history
+// --------------------
+// 24/10/2016, Leo Create
+// --------------------
+// ==============================================================================
+
+typedef enum
+{
+    pGPIO_2 = 0,                //P0_0
+    pGPIO_3,                    //P0_1
+    pP1_0,                      //P1_0
+    pP1_1,                      //P1_1
+    pP1_2,                      //P1_2
+    pP1_3,                      //P1_3
+    pP1_4,                      //P1_4
+    pP1_5,                      //P1_5
+    pP1_6,                      //P1_6
+    pP1_7,                      //P1_7
+    pP1_8,                      //P1_8
+    pP1_9,                      //P1_9
+    pP1_10,                     //P1_10
+    pP1_11,                     //P1_11
+    pP1_12,                     //P1_12
+    pP1_13,                     //P1_13
+    pP1_14,                     //P1_14
+    pPWR_GOOD_N,                //P1_15
+    pP1_16,                     //P1_16
+    pP1_17,                     //P1_17
+    pP1_18,                     //P1_18
+    pP1_19,                     //P1_19
+    pP1_20,                     //P1_20
+    pP2_0,                      //P2_0
+    pP2_1,                      //P2_1
+    pP2_2,                      //P2_2
+    pMCU_TXD3,                  //P2_3
+    pMCU_RXD3,                  //P2_4
+    pP2_5,                      //P2_5
+    pP2_6,                      //P2_6
+    pP2_7,                      //P2_7
+    pP2_8,                      //P2_8
+    pP2_9,                      //P2_9
+    pP2_10,                     //P2_10
+    pP2_11,                     //P2_11
+    pP2_12,                     //P2_12
+    pP2_13,                     //P2_13
+    pP3_0,                      //P3_0 // 非gpio禁用 I2S
+    pREAR_IR_EN,                //P3_1
+    pP3_2,                      //P3_2
+    pP3_3,                      //P3_3
+    pP3_4,                      //P3_4
+    pP3_5,                      //P3_5
+    pP3_6,                      //P3_6
+    pP3_7,                      //P3_7
+    pP3_8,                      //P3_8
+    pP4_0,                      //P4_0
+    pP4_1,                      //P4_1
+    pIT66341_INT,               //P4_2
+    p12V_5V_PON,                //P4_3
+    pOPS_5V_DET,                //P4_4
+    pOPS_HDMI_HPD,              //P4_5
+    pMCU_DP_DET,                //P4_6
+    pP4_7,                      //P4_7
+    pP4_8,                      //P4_8
+    pP4_9,                      //P4_9
+    pP4_10,                     //P4_10
+    pP5_0,                      //P5_0
+    pP5_1,                      //P5_1
+    pP5_2,                      //P5_2
+    pP5_3,                      //P5_3
+    pP5_4,                      //P5_4
+    pP5_5,                      //P5_5
+    pP5_6,                      //P5_6
+    pP5_7,                      //P5_7
+    pP6_0,                      //P6_0  // 非gpio禁用 I2S
+    pP6_1,                      //P6_1
+    pP6_2,                      //P6_2
+    pP6_3,                      //P6_3
+    pP6_4,                      //P6_4
+    pP6_5,                      //P6_5
+    pP6_6,                      //P6_6
+    pP6_7,                      //P6_7
+    pP6_8,                      //P6_8
+    pP6_9,                      //P6_9
+    pP6_10,                     //P6_10
+    pP6_11,                     //P6_11
+    pP6_12,                     //P6_12
+    pNXP_SCL2_A,                //P7_0
+    pNXP_SDA2_A,                //P7_1
+    pOPS_PSON,                  //P7_2
+    pIR_NXP4337,                //P7_3
+    pOPS_PSOK,                  //P7_4
+    pCARD_DET_N,                //P7_5
+    pOPS_DET_N,                 //P7_6
+    pSYS_FAN_OUT,               //P7_7
+    pP8_0,                      //P8_0
+    pD3V3A_EN,                  //P8_1
+    pLED1_SINK,                 //P8_2
+    pP8_3,                      //P8_3
+    pP8_4,                      //P8_4
+    pLED2_SINK,                 //P8_5
+    pP8_6,                      //P8_6
+    pP2RXHPD,                   //P8_7
+    pP8_8,                      //P8_8
+    pP9_0,                      //P9_0
+    pP9_1,                      //P9_1
+    pP9_2,                      //P9_2
+    pP9_3,                      //P9_3
+    pIT6563_RSTN,               //P9_4
+    pNXP_UART0_TXD,             //P9_5
+    pNXP_UART0_RXD,             //P9_6
+    pPA_0,                      //PA_0  // 非gpio禁用 I2S
+    pNXP_TXD2,                  //PA_1
+    pNXP_RXD2,                  //PA_2
+    pPA_3,                      //PA_3
+    pPA_4,                      //PA_4
+    pPWR_ON_N,                  //PB_0
+    pRESET_N,                   //PB_1
+    pPB_2,                      //PB_2
+    pPB_3,                      //PB_3
+    pPB_4,                      //PB_4
+    pSLOT_PON,                  //PB_5
+    pOPS_PON,                   //PB_6
+    pPC_0,                      //PC_0
+    pPV7_GPIO_0,                //PC_1
+    pPV7_GPIO_1,                //PC_2
+    pT66341_1V0_EN,             //PC_3
+    pPV7_GPIO_2,                //PC_4
+    pPV7_GPIO_3,                //PC_5
+    pIT6563_1V0_EN,             //PC_6
+    pIT6563_3V3_EN,             //PC_7
+    pUSB_PWR_EN,                //PC_8
+    pUSB_OCT,                   //PC_9
+    pIT66341_3V3_EN,            //PC_10
+    pAUDIO_PON,                 //PC_11
+    pPC_12,                     //PC_12
+    pMCU_TXD1,                  //PC_13
+    pMCU_RXD1,                  //PC_14
+    pPD_0,                      //PD_0
+    pKEY_PWR,                   //PD_1
+    pPD_2,                      //PD_2
+    pSCDC_ENABLE,               //PD_3
+    pPD_4,                      //PD_4
+    pPD_5,                      //PD_5
+    pPD_6,                      //PD_6
+    pPD_7,                      //PD_7
+    pPD_8,                      //PD_8
+    pPD_9,                      //PD_9
+    pPD_10,                     //PD_10
+    pPD_11,                     //PD_11
+    pPD_12,                     //PD_12
+    pIR_HDBASE_T,               //PD_13
+    pPD_14,                     //PD_14
+    pPD_15,                     //PD_15
+    pPD_16,                     //PD_16
+    pPE_0,                      //PE_0
+    pPE_1,                      //PE_1
+    pPE_2,                      //PE_2
+    pPE_3,                      //PE_3
+    pPE_4,                      //PE_4
+    pPE_5,                      //PE_5
+    pPE_6,                      //PE_6
+    pPE_7,                      //PE_7
+    pPE_8,                      //PE_8
+    pPE_9,                      //PE_9
+    pPE_10,                     //PE_10
+    pPE_11,                     //PE_11
+    pPE_12,                     //PE_12
+    pNXP_SDA1_A,                //PE_13
+    pKEY_RIGHT,                 //PE_14
+    pNXP_SCL1_A,                //PE_15
+    pCARD_SPI_SCK,              //PF_0
+    pCARD_SPI_CS,               //PF_1
+    pCARD_SPI_MISO,             //PF_2
+    pCARD_SPI_MOSI,             //PF_3
+    pPV7_SPI_CLK,               //PF_4
+    pPV7_SPI_CSn,               //PF_5
+    pPV7_SPI_MISO,              //PF_6
+    pPV7_SPI_MOSI,              //PF_7
+    pPF_8,                      //PF_8
+    pIT66341_RSTN,              //PF_9
+    pPF_10,                     //PF_10
+    pEDID_SW,                   //PF_11
+
+    pBOARD_PIN_NUMBERS,
+} eBOARD_PIN_TABLE;
+
+#endif /* BOARD_GPIO_NAME_H */

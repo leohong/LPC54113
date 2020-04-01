@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>..\lpc_chip\lib_lpc_chip_43xx.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\freertos\lib_freertos.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\bootcode\bootcode.uvprojx</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>..\appcode\appcode.uvprojx</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+</ProjectWorkspace>

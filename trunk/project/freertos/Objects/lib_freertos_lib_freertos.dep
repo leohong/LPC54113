@@ -1,0 +1,130 @@
+Dependencies for Project 'lib_freertos', Target 'lib_freertos': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)()
+F (..\..\src\thirdparty\freertos\freertos\Source\croutine.c)(0x5CD62451)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\croutine.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\event_groups.c)(0x5CD62451)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\timers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\event_groups.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\list.c)(0x5CD62451)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\queue.c)(0x5CD62452)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\queue.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\tasks.c)(0x5CD62452)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\timers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\stack_macros.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\timers.c)(0x5CD62452)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\queue.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\timers.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\port.c)(0x5CD62452)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Users\Leo\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.9.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCORE_M4-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DC3F538)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CD62452)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x5CD62451)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x5CD62451)
+F (..\..\src\thirdparty\freertos\freertos\Source\portable\MemMang\heap_1.c)(0x5CD62452)()
+F (..\..\src\thirdparty\freertos\freertos\Source\portable\MemMang\heap_2.c)(0x5CD62452)()
+F (..\..\src\thirdparty\freertos\freertos\Source\portable\MemMang\heap_3.c)(0x5CD62452)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCHIP_LPC5411X -DCORE_M4-o .\objects\heap_3.o --omf_browse .\objects\heap_3.crf --depend .\objects\heap_3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x59AE49BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DB7EC1B)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x59AE49BD)
+F (..\..\src\thirdparty\freertos\freertos\Source\portable\MemMang\heap_4.c)(0x5CD62452)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\..\src\Configuration_Files -I ..\..\src\thirdparty\freertos\freertos\Source\include -I ..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F-I.\RTE\_lib_freertos-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.6.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCHIP_LPC5411X -DCORE_M4-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\FreeRTOS.h)(0x59AE49BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\src\Configuration_Files\FreeRTOSConfig.h)(0x5DBA4962)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\projdefs.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\portable.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\deprecated_definitions.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\mpu_wrappers.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\task.h)(0x59AE49BD)
+I (..\..\src\thirdparty\freertos\freertos\Source\include\list.h)(0x59AE49BD)
+F (..\..\src\thirdparty\freertos\freertos\Source\portable\MemMang\heap_5.c)(0x5CD62452)()
